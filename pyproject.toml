@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stream-response"
+version = "0.1.0"
+description = ""
+authors = ["rxmrsd <morisada_keisuke@retail-ai.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+pydantic = "^2.7.2"
+langchain = "^0.2.1"
+langchain-google-vertexai = "^1.0.4"
+streamlit = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
